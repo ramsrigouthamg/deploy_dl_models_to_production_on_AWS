@@ -1,0 +1,15 @@
+
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "889806883670.dkr.ecr.us-east-2.amazonaws.com/production_test_docker:latest",
+    "Update": "true"
+  },
+   "Ports": [
+    {
+      "ContainerPort": "80",
+      "HostPort": "80"
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}
